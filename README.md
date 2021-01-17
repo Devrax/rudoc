@@ -1,3 +1,9 @@
+
+<p align="center">
+    <img src="./app/assets/images/rudoc_logo.png">
+</p>
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the

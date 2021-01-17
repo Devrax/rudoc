@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <p>{{ message }}</p>
+    <div class="flex h-screen items-center justify-center w-full">
+      <p class="animate-pulse font-bold text-4xl">{{ message }}</p>
+    </div>
   </div>
 </template>
 
@@ -8,15 +10,8 @@
 export default {
   data: function () {
     return {
-      message: "Hello Vue!"
+      message: "Hello Rudoc with Rails!"
     }
   }
 }
 </script>
-
-<style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
-</style>
